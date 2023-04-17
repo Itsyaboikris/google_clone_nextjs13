@@ -4,7 +4,7 @@ export const metadata = {
 	title: 'Google Clone',
 	description: 'This is a Google clone website',
 	icons: {
-	  	icon: '/favicon.ico',
+	  	icon: './favicon.svg',
 	},
 }
 
