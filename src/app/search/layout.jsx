@@ -13,7 +13,7 @@ export const metadata = {
 export default function SearchLayout({ children }) {
 	return (
 		<html lang="en">
-			<body>
+			<body className='relative min-h-screen'>
 				<SearchHeader/>
 				{children}
 				<Footer />
