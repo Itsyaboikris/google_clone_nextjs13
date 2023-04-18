@@ -20,7 +20,7 @@ export default function SearchHeader() {
 					<RiSettings3Line className='header-icon' />
 					<TbGridDots className='header-icon' />
 				</div>
-				<button className='bg-blue-500 text-white px-6 py-2 font-md rounded-md hover:brightness-105 hover:shadow-md transition-all ml-2' >Sign in</button>
+				<button className='bg-blue-500 text-white px-6 py-2 font-md rounded-md hover:brightness-105 hover:shadow-md transition-all ml-2 hidden md:inline-flex' >Sign in</button>
 			</div>
 			<SearchHeaderOptions />
 		</header>
