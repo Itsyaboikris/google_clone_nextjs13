@@ -1,7 +1,6 @@
 import WebSearchReaults from '@/components/WebSearchReaults'
 import Link from 'next/link'
 import React from 'react'
-import { resolve } from 'styled-jsx/css'
 
 export default async function WebSearchPage({searchParams}) {
 
@@ -18,7 +17,7 @@ export default async function WebSearchPage({searchParams}) {
 	const results = data.items
 
 	if (!results) {
-		return <div className='flex flex col justify-center items-center pt-10'>
+		return <div className='flex flex-col justify-center items-center pt-10'>
 			<h1 className='text-3xl mb-4'>No Results Found</h1>
 			<p className='text-lg'>
 				Try searching for something else or go back to 
