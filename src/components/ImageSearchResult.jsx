@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import PaginationButtons from './PaginationButtons'
 
 export default function ImageSearchResult({results}) {
 	return (
@@ -28,6 +29,9 @@ export default function ImageSearchResult({results}) {
 						</div>
 				  </div>
 				))}
+			</div>
+			<div className='ml-16'>
+				<PaginationButtons />
 			</div>
 		</div>
 	)
